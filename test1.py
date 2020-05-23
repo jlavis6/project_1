@@ -1,4 +1,4 @@
-import camelot
+#import camelot
 import os
 
 BASE_PATH = "C:\\Users\jlavi\OneDrive - IPADE Business School\\"
