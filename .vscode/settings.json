@@ -1,3 +1,5 @@
 {
-    "python.pythonPath": "C:\\Python 3.8.3\\python.exe"
+    "python.pythonPath": "venv\\Scripts\\python.exe",
+    "workbench.panel.defaultLocation": "right",
+    "python.formatting.provider": "black"
 }

@@ -1,13 +1,12 @@
-#import camelot
-import os
 
-BASE_PATH = "C:\\Users\jlavi\OneDrive - IPADE Business School\\"
+import sys
 
-a = os.path.join(BASE_PATH, "To invest or not to.pdf")
+print(sys.version)
+print(sys.executable)
 
-b = os.path.isfile(a)
+def greet(who_to_greet):
+    greeting = 'Hello, {}'.format(who_to_greet)
+    return greeting
 
-print(b)
-print()
-
-#pdf = camelot.read_pdf('To invest or not to.pdf')
+print (greet('World'))
+print (greet('Jose Luis'))
